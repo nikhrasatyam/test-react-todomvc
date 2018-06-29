@@ -2,6 +2,7 @@ To run this application
 1 Install node package manager
 2 npm install
 3 npm start
+4 Access the application on http://localhost:8080/
 
 Components
 1 header 
