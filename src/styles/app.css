@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  :root {
+    space: 1.5em 0;
+    space: 2em 0;
+  }
+  .Site {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+  }
+  .Site-content {
+   flex: 1 0 auto;
+   padding: var( — space) var( — space) 0;
+   width: 100%;
+  }
+  .Site-content:after {
+   content: ‘\00a0’;
+   display: block;
+   margin-top: var( — space);
+   height: 0;
+   visibility: hidden;
+  }
+  .header{
+      background-color: #004074;
+      text-align: center;
+        padding: 20px;
+        position: relative;
+        height: 80px;
+        width: 100%;
+  }
+  .header-text{
+  color: aliceblue;
+  font-size: 25px
+  }
+  
+  .footer {
+      background-color: #004074;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      position: relative;
+      left: 0;
+      bottom: 0;
+      height: 70px;
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      transition: 200ms;
+    }
+  
+    .footer-text {
+      color: white;
+      height: 39px;
+    }
+
+    .viewlist
+    {
+        padding-top: 9px;
+        font-size: 15px;;
+    }
+    .list-hover:hover
+    {
+        background-color: aliceblue;
+    }
+    .close-button{
+        text-align: right;
+    }
+    .add-todo{
+        text-align: center;
+    }
+    .add-input
+    {
+        width: 100%;
+
+    }
