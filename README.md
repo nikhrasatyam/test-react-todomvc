@@ -1,19 +1,19 @@
-To run this application
+To run this application:
 1 Install node package manager
 2 npm install
 3 npm start
 4 Access the application on http://localhost:8080/
 
-Components
+Components:
 1 header 
 2 footer
 3 app (homepage component)
 
-Containers
+Containers:
 1 todo 
 
-Entry Point
+Entry Point:
 ./src/index.js
 
-Deployment 
+Deployment:
 Deploy bundle.js file
